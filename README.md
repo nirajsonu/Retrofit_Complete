@@ -1,6 +1,9 @@
 # Retrofit_Complete
 Retrofit is the one of the Best networking libarary in Android developed by Square.
 It is basically annotation based libarary for java and android internally used OkHttp client for network response.
+
+Note:On Android, callbacks will be executed on the main thread but Retrofit request will work on background thread
+
 some common annotations mentioned below:
 
 <B>HTTP Requests<B>
