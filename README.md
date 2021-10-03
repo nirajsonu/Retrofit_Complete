@@ -20,7 +20,8 @@ Headers are used to specifiy extra information to the server for exmple token ke
 @HeaderMap:used when you pass the header on body with key,value pair.<br>
 
 
-
+<B>Some More<B>
+----------------------
 @formUrlEncoded-->For sending the data to url 
 
 @MultiPart-->For sending files to the server.
