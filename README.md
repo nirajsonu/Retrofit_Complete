@@ -36,7 +36,7 @@ Headers are used to specifiy extra information to the server for exmple token ke
 <B>GSON Annotations<B>
 --------------------------
 @SerializedName-->When json field and pojo class variable is diffrent<br>
-@Expose-->To prevent a java class variable to serliazation.<br>
+@Expose-->To prevent a java class variable to serliazation/deserialization.<br>
 @Since-->for versioning of your Json classes.(Field will only be considered for Serialization/deserialization starting from certain version.<b>Before that version<b>, it will ignored.)<br>
-@Until-->for versioning of your Json classes.( field will only be considered for Serialization/deserialization until certain version. <b>After that version<b>, it will ignored.)
-
+@Until-->for versioning of your Json classes.( field will only be considered for Serialization/deserialization until certain version. <b>After that version<b>, it will ignored.)<br>
+@JsonAdapter--> specifying the custom adapter we created above
