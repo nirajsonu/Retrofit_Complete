@@ -21,6 +21,7 @@ Headers are used to specifiy extra information to the server for exmple token ke
 
 
 
+@formUrlEncoded-->For sending the data to url 
 
 
 
