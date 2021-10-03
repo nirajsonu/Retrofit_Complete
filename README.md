@@ -7,9 +7,9 @@ some common annotations mentioned below:
 -----------------------------
 @GET-->For Get HTTP Request(For fetching the data from the server).<br>
 @POST-->For Post HTTP Request.(For Creating a new Resource in the server)<br>
-@PATCH-->For updating the Resource.<br>
+@PATCH-->For updating the Resource.(It will update only selected resources)<br>
 @PUT-->For updating the Resource(It will update whole resources).<br>
-@DELETE-->For Delete the Resource(It will update only select resources).<br>
+@DELETE-->For Delete the Resource(It will delete selected resources).<br>
 
 
 <B>Headers<B> 
