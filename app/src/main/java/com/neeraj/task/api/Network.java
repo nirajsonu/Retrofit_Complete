@@ -11,7 +11,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.jackson.JacksonConverterFactory;
 
 public class Network {
-    private static final String FAKE_JSON_BASE_URL = "http://3.109.247.241:6778/api/v2/customer/";
+  
     String BASE_URL="https://simplifiedcoding.net/demos/";
 
     public static Retrofit getRetrofit()
