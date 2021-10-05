@@ -32,7 +32,6 @@ import retrofit2.http.Url;
 public interface RestApi {
 
    // String FAKE_JSON_BASE_URL="https://jsonplaceholder.typicode.com/";
-/*    String FAKE_JSON_BASE_URL="http://3.109.247.241:6778/api/v2/customer/";*/
     String FEED_URL="posts";
 
 
