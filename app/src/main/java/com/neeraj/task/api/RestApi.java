@@ -45,13 +45,12 @@ public interface RestApi {
 
 
 
-    @Headers("token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTUxNzQ2MDQ3YjMzOTE5ZTI2NTBlYmQiLCJyb2xlIjoidXNlciIsImlhdCI6MTYzMzE1NzM5MSwiZXhwIjoxNjMzMzMwMTkxfQ.dAXZpC17rUImjg-ACjG-c7B-1TtJU73rU0CtcLVNBjo")
+    @Headers("")
     @GET("profile")
     Call<List<RootModel>> getData();
 
 
-  /*  @GET("http://3.109.247.241:6778/api/v2/customer/profile")
-    Call<List<RootModel>> getData(@Header("token") String token);*/
+
 
     //string variable
     @GET(FEED_URL)
