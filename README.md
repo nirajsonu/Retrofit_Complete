@@ -40,3 +40,10 @@ Headers are used to specifiy extra information to the server for exmple token ke
 @Since-->for versioning of your Json classes.(Field will only be considered for Serialization/deserialization starting from certain version.<b>Before that version<b>, it will ignored.)<br>
 @Until-->for versioning of your Json classes.( field will only be considered for Serialization/deserialization until certain version. <b>After that version<b>, it will ignored.)<br>
 @JsonAdapter--> specifying the custom adapter we created above
+
+ <B>Call class</B>
+ --------------------
+call.cancel()-->To cancel the request
+call.execute()-->Run on Main Thread(snck)
+call.isCancel()-->check cancelling status
+call.enqueue()-->Run on Background thread(Asnk)
