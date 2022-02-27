@@ -19,6 +19,8 @@ some common annotations mentioned below:
 @DELETE-->For Delete the Resource(It will delete selected resources).<br>
 
 
+ @url-->for sending request to another url
+ 
 <B>Headers<B> 
 ------------------
 Headers are used to specifiy extra information to the server for exmple token key or MIME<br>
